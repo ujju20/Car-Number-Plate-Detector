@@ -299,7 +299,7 @@ def bonus(image):
             break
     PlateReconginization(plate)    
 
-images=['Audi-A4-528794d.png']
+images=['Chevrolet-Beat-525743c.png']
 for image in images:
     PlateReconginization(cv2.imread(image))
 
